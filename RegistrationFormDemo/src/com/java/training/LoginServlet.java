@@ -63,6 +63,7 @@ public class LoginServlet extends HttpServlet {
 					}
 				}
 			}
+			//Setting to Session
 			HttpSession session = request.getSession();
 			if (firstname.length() != 0) {
 				session.setAttribute("firstName", firstname);
