@@ -50,6 +50,7 @@ public class LoginServlet extends HttpServlet {
 		try {
 			String firstname = "";
 			String username = request.getParameter("username");
+			
 			String password = request.getParameter("password");
 			if (null != username && null != password) {
 				if (connection != null) {
