@@ -67,6 +67,7 @@ public class Register extends HttpServlet {
 		         {
 		           dbUserNm =  r1.getString(1);
 		           System.out.println(dbUserNm);
+		           System.out.println(firstname);
 			}} catch (SQLException e) {
 				
 				e.printStackTrace();
